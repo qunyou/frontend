@@ -9,11 +9,14 @@
         },
     },
 
+    執行
+    composer dump-autoload
+
 ## config/app.php
 
     'providers' => [
         ...
-        Onepoint\Frontned\FrontendServiceProvider::class,
+        Onepoint\Frontend\FrontendServiceProvider::class,
     ]
 
 ## 目前前台頁面網址(規則寫在這個檔routes/web.php)
