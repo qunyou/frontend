@@ -1,0 +1,21 @@
+{
+    "name": "onepoint/frontend",
+    "description": "Frontend for onepoint/after-school package.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Qun",
+            "email": "qun@onepoint.com.tw"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Onepoint\\Frontend\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
